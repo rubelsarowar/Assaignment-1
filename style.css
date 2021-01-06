@@ -94,7 +94,7 @@ section{
 
 .project-area{
     background-color: #f7f8fb;;
-    height: 800px;
+    height: 650px;
 }
 
 .project-title{
@@ -103,7 +103,7 @@ section{
 }
 
 .prject-box{
-    width: 28%;
+    width: 25%;
     height: 50%;
     float: left;
     padding: 20px 15px;
