@@ -33,6 +33,7 @@ h3{
 }
 
 
+
 a{
     text-decoration: none;
     color: #3c3c3c;
@@ -138,20 +139,46 @@ section{
     background-size: cover;
     padding: 150px 0;
     margin: 200px 100px;
-    border-radius: 10px;
-
+    border-radius: 30px;
 }
 
-.project-inq{
-    width: 40%;
+.project-left{
     float: left;
+    width: 70%;
     height: 200px;
-    margin-left: 5%;
+}
+    
+.project-inq h4{
+    font-family: bebas neue, sans-serif;
+    font-size: 40px;
+    margin-left: 50px;
+    margin-top: -20px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+    
+.project-right{
+    float: right;
+    width: 20%;
+    height: 200px;
 }
 
-.chat-button{
-    width: 20%;
-    float: right;
-    margin-right: 5%;
+.footer-content{
+    text-align: center;
+    line-height: 10px;
+
+}
+
+.icons{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
     
+
+}
+
+.icons li img{
+    width: 35px;
+    margin-right: 10px;
 }
