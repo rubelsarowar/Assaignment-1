@@ -24,6 +24,7 @@ h3{
 
 a{
     text-decoration: none;
+    color: #3c3c3c;
 }
 
 p{
@@ -33,19 +34,16 @@ p{
 
 }
 section{
-    height: 600px;
-    margin-top: 50px;
+    height: 500px;
+    padding-bottom: 150px;
 }
 
-.top-nav{
-    height: 100px;
-}
-
-.nav{
+.nav-div{
     background-color: white;
     float: right;
     margin-right: 5%;
     padding-right: 2%;
+    margin-top: 20px;
 }
 
 .nav-link{
@@ -83,4 +81,8 @@ section{
 
 .left-photo{
     width: 100%;
+}
+
+.project-area{
+    background-color: #f7f8fb; 
 }
