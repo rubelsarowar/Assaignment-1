@@ -9,16 +9,27 @@ h1{
     font-size: 80px;
     font-weight: bold;
     padding-bottom: 0;
+    margin-top: 200px;
     margin-bottom: 0;
+    line-height: 85px;
 }
 
-h3{
+h2{
     color: #3c3c3c;
     font-family: bebas neue, sans-serif;
     font-size: 50px;
     font-weight: bold;
     padding-bottom: 0;
     margin-bottom: 0;
+    margin-top: 120px;
+}
+
+h3{
+    color: #3c3c3c;
+    font-family: bebas neue, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+
 }
 
 
@@ -35,28 +46,28 @@ p{
 }
 section{
     height: 500px;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 }
 
 .nav-div{
     background-color: white;
     float: right;
     margin-right: 5%;
-    padding-right: 2%;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 80px;
 }
 
 .nav-link{
     color: #3c3c3c;
     text-decoration:none;
     padding: 0 20px;
+    margin-bottom: 50px;
     font-weight: bold;
     font-size: 20px;
 }
 
 .half-width{
     width: 40%;
-    margin-top: 5%;
     margin-left: 5%;
     padding-left: 2%;
     float: left;
@@ -84,5 +95,63 @@ section{
 }
 
 .project-area{
-    background-color: #f7f8fb; 
+    background-color: #f7f8fb;;
+    height: 800px;
+}
+
+.project-title{
+    text-align: center;
+    padding: 75px;
+}
+
+.prject-box{
+    width: 28%;
+    height: 50%;
+    float: left;
+    padding: 20px 15px;
+    margin-left: 20px;
+    background: #ffffff;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.prject-image img{
+    width: 100%;
+    
+
+}
+
+.project-content h3{
+    font-size: 26px;
+    font-family: Lato, sans-serif;
+    font-weight: bold;
+    color: #3c3c3c;
+
+
+}
+
+.chat-bg-image{
+    background-image: url("images/bg-img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0;
+    margin: 200px 100px;
+    border-radius: 10px;
+
+}
+
+.project-inq{
+    width: 40%;
+    float: left;
+    height: 200px;
+    margin-left: 5%;
+}
+
+.chat-button{
+    width: 20%;
+    float: right;
+    margin-right: 5%;
+    
 }
